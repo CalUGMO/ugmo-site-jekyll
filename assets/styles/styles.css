@@ -1,0 +1,34 @@
+:root {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  --color-cal-blue: rgb(4, 30, 66);
+  --color-cal-gold: rgb(255, 199, 44);
+  --color-black: rgb(0, 0, 0);
+  --color-white: rgb(255, 255, 255);
+  --color-site-gray: rgb(246, 245, 228); /* this isn't actually very gray */
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  color: var(--color-cal-blue);
+  text-decoration: none;
+
+}
+
+/**
+ * MENU
+ */
+.menu {
+  background: var(--color-site-gray);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-link {
+  padding: 10px 20px;
+}
+
